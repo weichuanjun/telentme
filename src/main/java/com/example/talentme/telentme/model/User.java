@@ -22,7 +22,7 @@ public class User {
 
     private  String password;
 
-    private  Integer delete_flag;
+    private  int delete_flag;
 
 
 }
