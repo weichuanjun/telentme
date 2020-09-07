@@ -4,11 +4,13 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Userpage from "./component/Userpage";
+import UserProfile from "./component/UserProfile";
 
 ReactDOM.render(
   <React.StrictMode>
     ddd
     <Userpage />
+    <UserProfile />
     <App />
   </React.StrictMode>,
   document.getElementById("root")
