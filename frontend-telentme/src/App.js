@@ -1,11 +1,6 @@
 import React from "react";
 import "./App.css";
-import {
-  Switch,
-  BrowserRouter as Route,
-  Redirect,
-  BrowserRouter,
-} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { adminRoutes } from "./routes/index";
 
 function App() {
@@ -24,7 +19,7 @@ function App() {
             />
           );
         })}
-        <Redirect to={adminRoutes[0].path} from="/admin" />
+        {/* <Redirect to={"/login"} from="/" /> */}
       </Switch>
     </div>
   );

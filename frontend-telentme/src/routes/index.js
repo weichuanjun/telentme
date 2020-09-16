@@ -7,6 +7,10 @@ export const mainRoutes = [
     path: "/login",
     component: Login,
   },
+  {
+    path: "/",
+    component: Login,
+  },
   // {
   //     path: "/404",
   //     component: PageNotFound
